@@ -39,7 +39,7 @@ const authLink = setContext((_, { headers }) => {
 // set up link to backend
 const link = from([
   errorLink,
-  new HttpLink({ uri: "http://localhost:3001/graphql" }),
+  new HttpLink({ uri: "/graphql" }),
 ]);
 
 const client = new ApolloClient({
