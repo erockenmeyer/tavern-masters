@@ -59,7 +59,7 @@ function App() {
           <Header />
           <Routes>
             <Route
-              path="/home"
+              path="/"
               element={<Home />}
             />
             <Route
@@ -67,7 +67,7 @@ function App() {
               element={<Login />}
             />
             <Route
-              path="/"
+              path="/signup"
               element={<Signup />}
             />
             <Route path="/profile">
