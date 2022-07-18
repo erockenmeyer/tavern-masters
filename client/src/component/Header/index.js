@@ -31,7 +31,7 @@ const Header = () => {
           ) : (
             <>
               <Link className='navtitle' to="/login">Login</Link>
-              <Link className='navtitle' to="/">Signup</Link>
+              <Link className='navtitle' to="/signup">Signup</Link>
             </>
           )}
         </nav>
