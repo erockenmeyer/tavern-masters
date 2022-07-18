@@ -13,12 +13,12 @@ const Header = () => {
     <header>
       <div className="header">
 
-        <Link to="/home" className="hometitle">
+        <Link to="/" className="hometitle">
           <h1>Tavern Masters</h1>
         </Link>
 
         <nav className="nav">
-          <Link className='navtitle' to="/home">View Campaigns</Link>
+          <Link className='navtitle' to="/">View Campaigns</Link>
           {Auth.loggedIn() ? (
             <>
               <Link className="navtitle" to="/profile">My Profile</Link>
