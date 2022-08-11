@@ -34,4 +34,4 @@ This app is designed to help dungeon masters create campaigns.  When a user is l
  * Mongoose 
 
   ## Questions
-  If you have any questions, please reach out on <a href="https://github.com/sacylkowski/">GitHub</a> or you can <a href="mailto:sacylkowski@gmail.com">E-mail me</a>.
+  If you have any questions, please reach out on <a href="https://github.com/erockenmeyer/">GitHub</a> or you can <a href="mailto:erikrockenmeyer@gmail.com">E-mail me</a>.
